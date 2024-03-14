@@ -52,7 +52,7 @@ func main() {
 	c = celsius((f - 32) * 5 / 9)
 
 	fmt.Println("Fahrenheit: ", f, " Celcius= ", c)
-	//print typer data F and C
+	//print type data F and C
 	fmt.Println("f = ", reflect.TypeOf(f))
 	fmt.Println("c = ", reflect.TypeOf(c))
 }
